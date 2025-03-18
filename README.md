@@ -29,7 +29,7 @@ To get started, follow these simple steps:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/YourUsername/Electricity-Load-Prediction.git
+    git clone https://github.com/Golakiyaas/Electricity-Load-Prediction.git
     ```
 
 2. **Navigate to the project directory**:
@@ -104,3 +104,35 @@ df = pd.read_csv('energy_dataset.csv')
 # Plot energy load over time
 df.plot(x='timestamp', y='load', title='Energy Load Over Time')
 plt.show()
+```
+
+### 📊 Maximum Load Per Day
+
+```python
+df_max_load = pd.read_csv('Maximum_Load_Per_Day_with_Timestamps.csv')
+
+# Plot maximum load per day
+df_max_load.plot(x='date', y='max_load', kind='bar', title='Maximum Load Per Day')
+plt.show()
+```
+
+---
+
+## 🖤 **Thank You!** 🖤
+
+Thank you for checking out the **Electricity-Load-Prediction** project!  
+If you found it useful, please ⭐ star the repository on GitHub.
+
+💬 **Feel free to**:
+- Fork the project.
+- Contribute improvements.
+- Open issues or suggest new features.
+- Stay tuned for future updates and improvements! 🔥
+
+---
+
+## 🤝 **Contributing**
+
+We welcome contributions from the community! If you'd like to contribute, please fork the repository and submit a pull request.
+---
+---
